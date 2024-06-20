@@ -1,0 +1,117 @@
+body, html {
+  height: 100%;
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  background: url('https://www.example.com/path/to/your/background.jpg') no-repeat center center fixed; 
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  background-color: rgba(255, 255, 255, 0.8);
+}
+
+nav {
+  background-color: #333; 
+  color: white;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+}
+
+nav ul li {
+  margin-right: 20px;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+}
+
+nav ul li.logout {
+  margin-left: auto;
+}
+
+.banner {
+  background-color: #444;
+  padding: 20px;
+}
+
+.banner h2 {
+  color: white;
+  text-align: center;
+  margin: 0;
+}
+
+.search-container {
+  display: flex;
+  justify-content: center;
+  margin: 20px 0;
+}
+
+.search-container form {
+  display: flex;
+}
+
+.search-container input[type="text"] {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px 0 0 5px;
+  width: 300px;
+}
+
+.search-container .button {
+  padding: 10px 20px;
+  border: none;
+  background-color: #333;
+  color: white;
+  border-radius: 0 5px 5px 0;
+  cursor: pointer;
+}
+
+.search-container .button:hover {
+  background-color: #555;
+}
+
+.results-container {
+  padding: 20px;
+  flex: 1;
+  overflow-y: auto; /* Add this to enable scrolling if content overflows */
+}
+
+.results-container ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.results-container li {
+  background-color: #fff;
+  padding: 20px;
+  margin: 10px 0;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.results-container h3 {
+  margin: 0 0 10px 0;
+}
+
+.results-container p {
+  margin: 5px 0;
+}
+
+  

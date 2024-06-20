@@ -1,0 +1,136 @@
+body, html {
+    height: 100%;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    /*background: url('src/images/signup-background.jpg') center center fixed; */
+    background-color: antiquewhite;
+    background-size: cover;
+  }
+  
+  /* Form */
+  .container {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .form-container {
+    background-color: rgba(255, 255, 255, 0.8); /* Transparent white background */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 80%;
+    max-width: 400px; /* Adjust max-width as needed */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  form {
+    width: 100%;
+    max-width: 300px; /* Max width for form elements */
+    display: flex;
+    flex-direction: column;
+  }
+
+  /* switchable mode */
+
+.switch-mode {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin-bottom: 15px;
+    position: relative;
+  }
+  
+  .mode {
+    cursor: pointer;
+    padding: 10px 20px;
+    font-weight: bold;
+    transition: color 0.3s ease;
+  }
+  
+  .mode.active {
+    color: #e6efef;
+    background-color: cadetblue;
+  }
+  
+  .slider {
+    position: absolute;
+    bottom: -2px;
+    left: 0;
+    width: 50%;
+    height: 2px;
+    transition: transform 0.3s ease;
+  }
+  
+  
+  
+  h2 {
+    margin-bottom: 20px;
+    text-align: center;
+    color: #333;
+  }
+  
+  .input-container {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+    background: #f1f1f1;
+    padding: 10px;
+    border-radius: 5px;
+    width: 100%;
+  }
+  
+  .input-container i {
+    margin-right: 10px;
+  }
+  
+  input, select {
+    border: none;
+    outline: none;
+    background: none;
+    width: 100%;
+    padding: 10px;
+  }
+  
+  /* Button*/
+  .button-container {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+  }
+  
+  button {
+    background-color: #333;
+    color: #dbd8d8;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+    width: 48%;
+  }
+  
+  button:hover {
+    background: #456e6d;
+  }
+  
+  .error-message {
+    color: red;
+    font-size: 0.9em;
+    text-align: center;
+    margin-top: 10px;
+  }
+  
+  .mode-container {
+    width: 100%;
+    margin-bottom: 15px;
+  }
+  
+  .mode-container label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  

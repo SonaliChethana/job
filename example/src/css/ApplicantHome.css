@@ -1,0 +1,99 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: url('https://www.example.com/background-image.jpg') no-repeat center center fixed;
+    background-size: cover;
+    color: #333;
+  }
+
+  .banner {
+    background-image: url('src/images/banner.jpg');
+    background: rgba(0, 0, 0, 0.5);
+    padding: 50px 0;
+    text-align: center;
+    color: #fff;
+  }
+
+  .banner .hero-text {
+    font-size: 2.5em;
+    font-weight: bold;
+  }
+
+  .container {
+    padding: 50px;
+    background: rgba(255, 255, 255, 0.8);
+    border-radius: 10px;
+    margin: 20px auto;
+    max-width: 1000px;
+  }
+
+  .introduction {
+    text-align: center;
+    margin-bottom: 40px;
+  }
+
+  .introduction h2 {
+    font-size: 2em;
+    margin-bottom: 10px;
+  }
+
+  .introduction p {
+    font-size: 1.2em;
+  }
+
+  .register-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-bottom: 40px;
+  }
+  
+  .register-buttons a {
+    margin: 10px;
+    text-decoration: none;
+    padding: 15px 25px;
+    border-radius: 5px;
+    color: #fff;
+    display: inline-block;
+  }
+  
+  .button.green {
+    background-color :forestgreen;
+  }
+  
+  .button.green:hover {
+    background-color:darkgreen;
+  }
+  
+  .button.blue {
+    background-color:deepskyblue;
+  }
+  
+  .button.blue:hover {
+    background-color:cornflowerblue;
+  }
+
+  /* Button */
+
+  .features {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    margin-bottom: 40px;
+  }
+
+  .features .feature {
+    padding: 20px;
+  }
+
+  .features .feature img {
+    width: 300px;
+    height: auto;
+    margin-bottom: 20px;
+  }
+ .feature p{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+ }
+  

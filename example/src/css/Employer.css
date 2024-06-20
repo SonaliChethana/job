@@ -1,0 +1,242 @@
+body, html {
+    height: 100%;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f0f0f0; 
+  }
+  
+  .container {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+  }
+  /* Navigation bar */
+  nav {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between; /* Align profile and logout to the right */
+  }
+  
+  nav ul {
+    list-style-type: none;
+    display: flex;
+  }
+  
+  nav ul li {
+    margin-right: 20px;
+  }
+  
+  nav ul li a {
+    text-decoration: none;
+    color: #fff;
+  }
+  
+  .nav-left {
+    flex: 1; /* Takes up all available space on the left */
+  }
+  
+  .nav-right {
+    display: flex;
+    align-items: center;
+  }
+  
+  .nav-right ul {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    list-style-type: none;
+  }
+  
+  .nav-right ul li {
+    margin-left: 10px;
+  }
+  
+  .nav-right ul li.profile,
+  .nav-right ul li.logout {
+    margin-left: 20px;
+  }
+  
+  .nav-right ul li a {
+    color: #fff;
+    text-decoration: none;
+  }
+  nav ul li a:hover {
+    background-color: #111;
+  }
+  
+  
+  .profile-container {
+    display: flex;
+    height: calc(100% - 50px); /* Adjust height according to the navbar height */
+  }
+  
+  /* Side bar */
+  .sidebar {
+    background-color: #444; 
+    padding: 20px;
+    width: 200px;
+  }
+  
+  .sidebar ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .sidebar ul li {
+    margin-bottom: 10px;
+  }
+  
+  .sidebar ul li a {
+    color: white;
+    text-decoration: none;
+    display: block;
+    padding: 10px;
+    border-radius: 5px;
+  }
+  
+  .sidebar ul li a:hover {
+    background-color: #555;
+  }
+  
+
+  /*Form profile picture */
+  .profile-content {
+    flex-grow: 1;
+    background-color: #fff; 
+    padding: 20px;
+    margin: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .profile-picture {    
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .profile-picture img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+  }
+  .profile-picture input {
+    display: block;
+    margin: 10px auto;
+  } 
+  
+
+  /* form content */
+  .input-container {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+  }
+  
+  .input-container label {
+    flex: 1;
+    font-weight: bold;
+  }
+  
+  .input-container input {
+    flex: 2;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 14px;
+  }
+  
+  .edit-button {
+    flex: 0;
+    padding: 10px;
+    margin-left: 10px;
+    background-color: #333;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .button-container {
+    text-align: center;
+  }
+  
+  .button-container .button {
+    background-color: #333;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .button-container .button:hover {
+    background-color: #555;
+  }
+  
+   /*Footer*/
+   footer {
+    background-color: #343a40;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    width: 100%;
+    opacity: 0.9;
+}
+footer {
+    margin-bottom: 10px;
+}
+footer nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 10px;  /* space between the words */
+    padding: 5px 0;
+    display: inline-block;
+}
+footer nav a:hover {
+    color: #eb630e;
+}
+footer h3 {
+    margin-top: 0; /*space between registration & follow us */
+    margin-bottom: 10px;
+}
+
+footer p,
+footer a {
+    color: white;
+    margin: 20px 0;
+    text-decoration: none;
+}
+.footer-bottom {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.social {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    margin: 0;
+}
+
+.social li {
+    margin-right: 10px;
+}
+
+.social i {
+    font-size: 24px;
+    color: white;
+}
+
+footer p {
+    width: 100%;
+    text-align: center;
+    margin-top: 20px;
+}
+
+
+
+
